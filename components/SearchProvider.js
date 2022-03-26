@@ -31,7 +31,7 @@ export default function ApiData(props) {
                         data={props.Data}
                         keyExtractor={item => item.mal_id}
                         renderItem={({ item }) => (
-                            <View style={Styles.searchContainer}>
+                            <View style={Styles.searchContainer} key={item.mal_id}>
                                 <View style={Styles.left}>
                                     <TouchableOpacity onPress={() => {
                                         props.setTarget(item)
