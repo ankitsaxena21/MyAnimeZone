@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "MyAnimeApp",
-    "slug": "MyAnimeApp",
+    "name": "MyAnimeZone",
+    "slug": "MyAnimeZone",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,9 +21,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/favicon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.ankitsaxena.myanimezone"
     },
     "web": {
       "favicon": "./assets/favicon.png"
